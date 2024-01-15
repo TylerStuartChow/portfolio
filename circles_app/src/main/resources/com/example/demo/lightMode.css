@@ -1,0 +1,97 @@
+.school {
+    -fx-background-color: orange;
+    -fx-text-fill: white;
+}
+
+.work {
+    -fx-background-color: pink;
+    -fx-text-fill: white;
+}
+
+.other {
+    -fx-background-color: grey;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: lightblue;
+    -fx-background-radius: 30;
+    -fx-background-inset: 0;
+    -fx-text-fill: black;
+    -fx-border-color: gray;
+    -fx-border-width: 0px;
+}
+
+.button:hover {
+    -fx-background-color: lightgrey;
+}
+
+.button:pressed {
+    -fx-background-color: blue;
+}
+
+.background{
+     -fx-background-color: white;
+}
+
+.pdf_view{
+     -fx-background-color: #AFEEEE;
+}
+
+.notes_view{
+     -fx-background-color: #B0E0E6;
+}
+
+.flashcard_view{
+     -fx-background-color: #87CEEB;
+}
+
+.menu_view{
+     -fx-background-color:  #ADD8E6;
+}
+
+.imageview{
+    -fx-blend-mode: darken;
+}
+
+.text{
+    -fx-fill: black;
+}
+
+.choice-box {
+    -fx-background-color: white;
+    -fx-border-color: gray;
+}
+
+.choice-box:hover  {
+    -fx-background-color: lightgrey;
+}
+
+.list-cell {
+    -fx-background-color: white;
+}
+
+.list-cell:filled:hover{
+    -fx-background-color: blue;
+}
+
+.list-cell:filled:selected{
+    -fx-background-color: blue;
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: gray;
+}
+
+.text-field:hover {
+    -fx-background-color: lightgrey;
+}
+
+.date-picker {
+    -fx-control-inner-background: white;
+}
+
+.date-picker-popup .month-year-pane{
+    -fx-background-color: white;
+}
