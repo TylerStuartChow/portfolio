@@ -1,0 +1,128 @@
+<!-- Tyler Chow 
+     tsc221
+     1129 8048 -->
+
+<!DOCTYPE HTML>
+
+
+<html>
+    <head>
+        <title>Second Ave Dental</title>
+        <link rel="stylesheet" type="text/css" href="dental-css.css">
+        <script type="text/javascript" src="dental-js.js"></script>
+    </head>
+
+
+
+    <body>
+        <div class="menuBar">
+
+            <div class="logo">
+                <h2>2nd Ave Dental</h2>
+            </div>
+
+            <!--home page -->
+            <button type="button" class="pageButton">
+                
+                <a href="./home page.html">home</a>
+                
+            </button>
+
+            <!--services-->
+            <button type="button" class="pageButton">
+                <a href="./services.html">services</a>
+            </button>
+
+            <!--our Team-->
+            <button type="button" class="pageButton">
+                <a href="./about us.html">our team</a>
+            </button>
+
+            <!--contact us-->
+            <button type="button" class="pageButton">
+                <a href="./contact us.html">contact us</a>
+            </button>
+
+
+            <!--book appointment-->
+            <button type="button" class="bookAppointmentButton">
+                <a href="./book appointment.html">book appointment</a>
+            </button>
+
+        </div>
+
+        <div class="pageHeader">
+            <div class="pageHeaderText">
+                <h1>Book Now</h1>
+            </div>
+        </div>
+
+        <div id="bookInput">
+
+            <div class="sideBySideContent">
+                <div class="inputValuePair">
+                    <p>First name</p>
+                    <input id="firstName" type="text"  />
+                </div>
+
+                <div class="inputValuePair">
+                    <p>Last name</p>
+                    <input id="lastName" type="text"  />
+                </div>
+            </div>
+
+
+            <div class="inputValuePair">
+                <p>Email</p>
+                <input id="email" type="email"  />
+            </div>
+
+
+            <div class="sideBySideContent">
+                <div class="inputValuePair">
+                    <p>Dentist</p>
+                    <select id="dentist">
+                        <option value="Dr. one">Dr. one</option>
+                        <option value="Dr. two">Dr. two</option>
+                        <option value="Dr. three">Dr. three</option>
+                    </select>
+                </div>
+
+                <div class="inputValuePair">
+                    <p>Appointment type</p>
+                    <select id="appointmentType">
+                        <option value="one">type 1</option>
+                        <option value="two">type 2</option>
+                        <option value="three">type 3</option>
+                    </select>
+                </div>
+            </div>
+
+            
+
+            <div class="inputValuePair">
+                <p>Appointment date</p>
+                <div class="sideBySideContent">
+                    <input id="appointmentDate" type="date" value=“yyyy-mm-dd" />
+                    <select id="appointmentTime">
+                        <option value="9am - 10am">9am - 10am</option>
+                        <option value="10am - 11am">10am - 11am</option>
+                        <option value="11am - 12pm">11am - 12pm</option>
+                        <option value="12pm - 1pm">12pm - 1pm</option>
+                        <option value="1pm - 2pm">1pm - 2pm</option>
+                        <option value="2pm - 3pm">2pm - 3pm</option>
+                        <option value="3pm - 4pm">3pm - 4pm</option>
+                        <option value="4pm - 5pm">4pm - 5pm</option>
+                    </select>
+                </div>
+            </div>
+
+            <button onclick="BookAppointment()">submit</button>
+
+        </div>
+        <p id="temp"></p>
+
+    </body>
+
+
+</html>
