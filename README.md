@@ -57,6 +57,7 @@ This project was developed in 2022 for a second year course on website design an
 <br>
 <h3>changes I would make:</h3>
 <ul>
+  <li>change the anchor tags for switching pages with form tags</li>
   <li>split the JavaScript to be client side, server side, and use fetch requests to communicate between the two</li>
   <li>generate options such as which dentist, appointment type, and available time slots on the "Book Appointment" page by requesting data from the backend rather than hard coding in those options</li>
 </ul>
